@@ -7,12 +7,43 @@
                 width: 600px;
                 height: auto;
             }
+
+            h1 {
+                color: red;
+            }
+            
         </style>
     </head>
     <body>
         <h1>My Cool Weabsite</h1>
         <p>I think HTML is neat!</p>
 
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.motortrend.com%2Fnews%2F2023-porsche-911-gt3-rs-pros-cons-review%2F&psig=AOvVaw250Ste-1TW6MS4wdDW22Hx&ust=1732455736177000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj34dvK8okDFQAAAAAdAAAAABAS"
-    </body>
+       
+         <img src="https://f1rst-motors.s3.me-central-1.amazonaws.com/cars/1709547872932-Porsche-911-GT3RS-F1rstMotors-1.webp"\>
+   
+         <blockquote>"I looked like this when I was young, and I still do." - Yogi Berra</blockquote>
+         <button onclick="changeQuote()">Change Quote</button>
+
+         <script>
+            var index = 0;
+
+            function changeQuote() {
+                var quotes = [
+
+                `"I am one step ahead!" - Marvin Butrus`,
+                `"I am the greatest to ever do it!"Marvin Butrus`,
+                `"Porche 911 gtr3s!"Marvin Butrus`,
+                ];
+            } 
+
+            <blockquote>"A Handshake is NOT Too much to ask, Even from a king" - Lebron James"</blockquote>
+            
+
+            var blockquote = document.querySelector("blockquote");
+
+            blockquote.innerHTML = quotes[index];
+
+            index++;
+         </script>
+        </body>
 </html>
